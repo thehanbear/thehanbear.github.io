@@ -1,0 +1,69 @@
+/* Montserrat */
+@font-face { font-family: "Montserrat"; src: url("../Fonts/Montserrat-Thin.ttf") format("truetype"); font-weight: 100; }
+@font-face { font-family: "Montserrat"; src: url("../Fonts/Montserrat-Light.ttf") format("truetype"); font-weight: 300; }
+@font-face { font-family: "Montserrat"; src: url("../Fonts/Montserrat-Regular.ttf") format("truetype"); font-weight: 400; }
+@font-face { font-family: "Montserrat"; src: url("../Fonts/Montserrat-Medium.ttf") format("truetype"); font-weight: 500; }
+@font-face { font-family: "Montserrat"; src: url("../Fonts/Montserrat-SemiBold.ttf") format("truetype"); font-weight: 600; }
+@font-face { font-family: "Montserrat"; src: url("../Fonts/Montserrat-Bold.ttf") format("truetype"); font-weight: 700; }
+@font-face { font-family: "Montserrat"; src: url("../Fonts/Montserrat-Black.ttf") format("truetype"); font-weight: 900; }
+
+/* Comfortaa */
+@font-face { font-family: "Comfortaa"; src: url("../Fonts/Comfortaa-Light.ttf") format("truetype"); font-weight: 300; }
+@font-face { font-family: "Comfortaa"; src: url("../Fonts/Comfortaa-Regular.ttf") format("truetype"); font-weight: 400; }
+@font-face { font-family: "Comfortaa"; src: url("../Fonts/Comfortaa-Medium.ttf") format("truetype"); font-weight: 500; }
+@font-face { font-family: "Comfortaa"; src: url("../Fonts/Comfortaa-SemiBold.ttf") format("truetype"); font-weight: 600; }
+@font-face { font-family: "Comfortaa"; src: url("../Fonts/Comfortaa-Bold.ttf") format("truetype"); font-weight: 700; }
+
+/* Inconsolata (Variable) */
+@font-face {
+  font-family: "Inconsolata";
+  src: url("../Fonts/Inconsolata-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 200 900;   /* 가변 축 범위 */
+  font-stretch: 75% 125%; /* wdth 축 사용 시 */
+}
+
+/* Gravitas One */
+@font-face { 
+	font-family: "GravitasOne"; 
+	src:
+		url("../Fonts/GravitasOne-Regular.ttf") format("truetype"); 
+		font-weight: 400; 
+	}
+
+/* Limelight */
+@font-face { 
+	font-family: "Limelight"; 
+	src: 
+		url("../Fonts/Limelight-Regular.ttf") format("truetype"); 
+		font-weight: 400;
+	}
+
+/* Sacramento */
+@font-face {
+	font-family: "Sacramento";
+	src: 
+		url("../Fonts/Sacramento-Regular.ttf") format("truetype");
+		font-weight: 400;
+	}
+
+/* Source Code Pro (Variable) */
+@font-face {
+  font-family: "codePro";
+  src: url("../Fonts/SourceCodePro-VariableFont_wght.ttf") format("truetype");
+  font-weight: 200 900; /* 가변 축 */
+}
+
+/* Zen Tokyo Zoo */
+@font-face {
+	font-family: "editorialOld";
+	src: url("../Fonts/ppeditorialold-regular.otf") format("truetype");
+	font-weight: 400;
+} 
+
+/* Funnel Dsiplay */
+@font-face {
+	font-family: "FunnelDisplay";
+	src: url("../Fonts/FunnelDisplay-ExtraBold.ttf") format("truetype");
+	font-weight: 400;
+} 
+
