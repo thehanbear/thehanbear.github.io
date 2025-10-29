@@ -9,7 +9,6 @@ body{
 	height: 100vh;
 	background-color: white;
 }
-
 .intro{
 		position: relative;
 		min-height:100vh;
@@ -21,7 +20,6 @@ body{
 		overflow: hidden;
 		cursor:grab;
 }
-
 .intro::after{
 	content:"";
 	position: absolute;
@@ -35,7 +33,6 @@ body{
 	transform: translateX(-10%);
 	animation: wipe-wave 3.5s ease-in-out forwards;
 }
-
 @keyframes wipe-wave{
 	from { transform: translateX(0%);}
 	35%{transform: translateX(45%);}
