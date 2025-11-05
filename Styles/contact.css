@@ -106,3 +106,204 @@
 	transform: 2s ease-in-out infinite;
 	cursor: grabbing;
 }
+
+/*Responsive design*/
+
+@media(max-width: 1280px){
+.info-right input{
+	height: 2.5rem;
+	animation-timeline: view(70% 5%);
+	transition-delay: 3s;
+}
+}
+
+@media(max-width: 1025px){
+.contact-container{
+	gap: 2rem;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+.contact-title{
+	font-size: 4rem;
+	margin-bottom: 1.2rem;
+}
+.contact-info{
+	display: flex;
+	flex-direction: row;
+	width: 90vw;
+}
+.info-left{
+	margin-top: -3rem;
+}
+.info-right{
+	gap: 2rem;
+	padding-top: 1rem;
+}
+.bearpaw{
+	margin-top: 0.8rem;
+	width: 30vw;
+}
+.info-right p{
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+} 
+.info-right input{
+	height: 2rem;
+	animation-timeline: view(70% 5%);
+	transition-delay: 3s;
+}
+.input input::placeholder{
+	font-size: 1rem;
+}
+.btn2{
+	border-radius: 3rem;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	animation-timeline: view(70% 5%);
+	transition-delay: 3s;
+}
+}
+
+@media(max-width: 769px){
+.contact-container{
+	gap: 2rem;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+.contact-title{
+	font-size: 4rem;
+	margin-bottom: 1.2rem;
+}
+.contact-info{
+	display: flex;
+	flex-direction: column;
+	width: 92vw;
+}
+.info-left{
+	margin-top: -2rem;
+}
+.info-right{
+	gap: 2rem;
+	padding-top: 1rem;
+}
+.bearpaw{
+	margin-top: 0.8rem;
+	width: 35vw;
+}
+.info-right p{
+	font-size: 1.3rem;
+	padding-bottom: 1rem;
+}
+.info-right input{
+	width:40vw;
+	height: 2rem;
+	animation-timeline: view(70% 5%);
+	transition-delay: 3s;
+}
+.input input::placeholder{
+	font-size: 1rem;
+}
+.btn2{
+	border-radius: 3rem;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	animation-timeline: view(70% 5%);
+	transition-delay: 3s;
+}
+}
+
+@media(max-width: 480px){
+.contact-container{
+	gap: 2rem;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+.contact-title{
+	font-size: 3rem;
+	margin-bottom: 1.2rem;
+}
+.contact-info{
+	display: flex;
+	flex-direction: column;
+	width: 92vw;
+}
+.info-left{
+	margin-top: -2rem;
+}
+.info-right{
+	gap: 2rem;
+	padding-top: 1rem;
+}
+.bearpaw{
+	margin-top: 0.8rem;
+	width: 35vw;
+}
+.info-right p{
+	font-size: 14px;
+	padding-bottom: 1rem;
+}
+.info-right input{
+	width:40vw;
+	height: 3vh;
+	animation-timeline: view(70% 5%);
+	transition-delay: 3s;
+}
+.input input::placeholder{
+	font-size: 0.6rem;
+}
+.btn2{
+	border-radius: 3rem;
+	padding: 0.3rem 0.8rem;
+	font-size: 0.7rem;
+	animation-timeline: view(70% 5%);
+	transition-delay: 3s;
+}
+}
+
+@media(max-width: 376px){
+.contact-container{
+	gap: 2rem;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+.contact-title{
+	font-size: 2.5rem;
+	margin-bottom: 1.2rem;
+}
+.contact-info{
+	display: flex;
+	flex-direction: column;
+	width: 92vw;
+}
+.info-left{
+	margin-top: -2rem;
+}
+.info-right{
+	gap: 2rem;
+	padding-top: 1rem;
+}
+.bearpaw{
+	margin-top: 0.8rem;
+	width: 35vw;
+}
+.info-right p{
+	font-size: 14px;
+	padding-bottom: 1rem;
+}
+.info-right input{
+	width:40vw;
+	height: 3vh;
+	animation-timeline: view(70% 5%);
+	transition-delay: 3s;
+}
+.input input::placeholder{
+	font-size: 0.6rem;
+}
+.btn2{
+	border-radius: 3rem;
+	padding: 0.2rem 0.6rem;
+	font-size: 0.7rem;
+	animation-timeline: view(70% 5%);
+	transition-delay: 3s;
+}
+}

@@ -81,3 +81,121 @@ body{
 	color:#9E9191;
 	border: 2px solid #9E9191;
 }
+
+/*Responsive design*/
+
+@media(max-width: 1280px){
+.top-container{
+		margin-bottom: 10rem;
+}
+}
+@media(max-width: 1025px){
+.top-container{
+		margin-bottom: 10rem;
+}
+.name{
+	font-size: 6rem;
+	margin-top: 10rem;
+}
+.bear{
+	width: 15vw;
+}
+.hero{
+	font-size: 1.8rem;
+	margin-bottom: 0.3rem;
+}
+.hero2{
+	font-size: 1.8rem;
+	margin-bottom: 1.5rem;
+}
+.btns{
+	gap: 1rem;
+}
+.btn{
+	font-size: 1rem;
+	padding: 0.5rem 1rem;
+}
+}
+
+@media(max-width: 769px){
+.top-container{
+		margin-bottom: 4rem;
+}
+.name{
+	font-size: 5rem;
+	margin-top: 8rem;
+}
+.bear{
+	width: 25vw;
+}
+.hero{
+	font-size: 1.5rem;
+	margin-bottom: 0.3rem;
+}
+.hero2{
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+.btns{
+	gap: 1rem;
+}
+.btn{
+	font-size: 1rem;
+	padding: 0.5rem 1rem;
+}
+}
+
+@media(max-width: 480px){
+.top-container{
+	margin-bottom: 1rem;
+}
+.name{
+font-size: 3.5rem;
+margin-top: 8rem;
+}
+.bear{
+width: 40vw;
+}
+.hero{
+font-size: 1.2rem;
+margin-bottom: 0.3rem;
+}
+.hero2{
+font-size: 1.2rem;
+margin-bottom: 1.5rem;
+}
+.btns{
+gap: 0.5rem;
+}
+.btn{
+font-size: 0.8rem;
+padding: 0.4rem 0.8rem;
+}
+}
+
+@media(max-width: 376px){
+	.top-container{
+		margin-bottom: 1rem;
+}
+.name{
+	font-size: 3.2rem;
+	margin-top: 6.5rem;
+}
+.bear{
+	width: 38vw;
+}
+.hero{
+	font-size: 1.1rem;
+}
+.hero2{
+	font-size: 1.1rem;
+	margin-bottom: 1.5rem;
+}
+.btns{
+	gap: 0.5rem;
+}
+.btn{
+	font-size: 0.7rem;
+	padding: 0.3rem 0.8rem;
+}
+}
