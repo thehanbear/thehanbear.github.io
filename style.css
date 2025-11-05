@@ -130,7 +130,7 @@
 .cards span{
 	font-size: 13px;
 }
-.cards p{
+.overlay p{
 	font-size: 12.5px;
 	padding-top: 1rem;
 	padding-left: 0.5rem;
@@ -310,7 +310,7 @@ footer ul li a{
 .cards span{
 	font-size: 13px;
 }
-.cards p{
+.overlay p{
 	font-size: 12.5px;
 	padding-top: 1rem;
 	padding-left: 0.5rem;
@@ -449,19 +449,16 @@ padding-bottom: 5rem;
 }
 .hive-container{	
 width: 85vw;
-height: 100%;
 margin-top: 2rem;
 flex-direction: column;
 gap: 2.5rem;
 }
 .ro-left{
-height: 100%;
 border: 1px solid rgba(151, 138, 138, 0.2);
 border-radius: 1rem;
 overflow: hidden;
 }
 .ro-right{
-height: 100%;
 gap: 1.5rem;
 flex-direction: row;
 }
@@ -471,7 +468,6 @@ margin-bottom: 32px;
 }
 .uiux-container{	
 width: 85vw;
-height: 100%;
 flex-direction: column-reverse;
 gap: 2rem;
 margin-bottom: 6rem;
@@ -492,8 +488,9 @@ padding-right: 0.3rem;
 }
 .cards span{
 font-size: 13px;
+color: #5f5151;
 }
-.cards p{
+.overlay p{
 font-size: 12.5px;
 padding-top: 1rem;
 padding-left: 0.5rem;
@@ -674,9 +671,8 @@ font-size: 0.8rem;
 .cards span{
 	font-size: 13px;
 }
-.cards p{
+.overlay p{
 	font-size: 12.5px;
-	text-align:justify;
 	padding-top: 1rem;
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
