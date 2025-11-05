@@ -6,7 +6,7 @@
 	inset: 0;
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;
+	gap: 1rem;
 	padding-top: 10rem;
 	padding-bottom: 10rem;
 	align-items: center;
@@ -35,7 +35,7 @@
 	}
 }
 .contact-info{
-	width: 95vw;
+	width: 85vw;
 	display: flex;
 	flex-direction: row;
 	padding-top: 0;
@@ -65,13 +65,13 @@
 .info-right p{
 	font-family: "editorialOld", sans-serif;
 	font-weight: 200;
-	font-size: 2rem;
+	font-size: 1.8rem;
 	color: #4f4343;
 	text-align: center;
 	padding-bottom: 3rem;
-	animation: text-fade 8s ease-in-out forwards;
+	animation: text-fade 25s ease-in-out forwards;
 	animation-timeline: view(70% 5%);
-	transition-delay: 3s;
+	transition-delay: 2s;
 }
 .info-right input{
 	width:30vw;

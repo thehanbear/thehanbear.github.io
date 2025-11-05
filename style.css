@@ -9,26 +9,26 @@
 
 
 @media(max-width: 1280px){
-
+.about-last-text{
+	max-width: 70vw;
+}
+.info-right input{
+	height: 2.5rem;
+	animation-timeline: view(70% 5%);
+	transition-delay: 3s;
+}
 }
 
 @media(max-width: 1025px){
-
-}
-
-
-
-
-@media(max-width: 769px){
-	.top-container{
-		margin-bottom: 1rem;
+.top-container{
+		margin-bottom: 6rem;
 }
 .name{
-	font-size: 5rem;
-	margin-top: 8rem;
+	font-size: 6rem;
+	margin-top: 10rem;
 }
 .bear{
-	width: 38vw;
+	width: 15vw;
 }
 .hero{
 	font-size: 1.8rem;
@@ -63,7 +63,7 @@
 	text-align: center;
 }
 .about-text{
-	width: 85vw;
+	width: 80vw;
 	font-size: 1rem;
 	margin-bottom: 2rem;
 }
@@ -73,8 +73,8 @@
 	padding-bottom: 10rem;
 }
 .about-last-text{
-	max-width: 90vw;
-	font-size: 2.8rem;
+	max-width: 85vw;
+	font-size: 3rem;
 }
 .autoLastText{
 	animation: typing 2s steps(10, end) forwards;
@@ -149,6 +149,186 @@
 }
 .contact-info{
 	display: flex;
+	flex-direction: row;
+	width: 90vw;
+}
+.info-left{
+	margin-top: -3rem;
+}
+.info-right{
+	gap: 2rem;
+	padding-top: 1rem;
+}
+.bearpaw{
+	margin-top: 0.8rem;
+	width: 30vw;
+}
+.info-right p{
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+} 
+.info-right input{
+	height: 2rem;
+	animation-timeline: view(70% 5%);
+	transition-delay: 3s;
+}
+.input input::placeholder{
+	font-size: 1rem;
+}
+.btn2{
+	border-radius: 3rem;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	animation-timeline: view(70% 5%);
+	transition-delay: 3s;
+}
+
+/*Footer*/
+footer{
+	height: 10rem;
+	gap: 0.8rem;
+}
+footer ul{
+	gap: 1.8rem;
+}
+footer ul li a{
+	font-size: 1.4rem;
+}
+.copyright{
+	font-size: 1rem;
+}
+}
+
+
+@media(max-width: 769px){
+.top-container{
+		margin-bottom: 4rem;
+}
+.name{
+	font-size: 5rem;
+	margin-top: 8rem;
+}
+.bear{
+	width: 25vw;
+}
+.hero{
+	font-size: 1.5rem;
+	margin-bottom: 0.3rem;
+}
+.hero2{
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+.btns{
+	gap: 1rem;
+}
+.btn{
+	font-size: 1rem;
+	padding: 0.5rem 1rem;
+
+}
+
+/*about*/
+.about-container{
+	padding-top: 8rem;
+	padding-bottom: 6rem;
+}
+.about-title{
+	font-size: 4rem;
+	margin-bottom: 3rem;
+}
+.section-title{
+	font-size: 4rem;
+	padding-top: 10rem;
+	margin-bottom: 3rem;
+	text-align: center;
+}
+.about-text{
+	width: 85vw;
+	font-size: 1rem;
+	margin-bottom: 2rem;
+}
+.not-easy{
+	gap: 1rem;
+	padding-top: 8rem ;
+	padding-bottom: 10rem;
+}
+.about-last-text{
+	display: flex;
+	justify-content: center;
+	max-width: 90vw;
+	font-size: 2.2rem;
+}
+.autoLastText{
+	animation: typing 2s steps(10, end) forwards;
+}
+
+/*Projects*/
+.projects{
+	padding-bottom: 5rem;
+}
+.hive-container{	
+	width: 85vw;
+	height: 100%;
+	margin-top: 2rem;
+	flex-direction: column;
+	gap: 2.5rem;
+}
+.ro-left{
+	height: 100%;
+}
+.ro-right{
+	height: 100%;
+	gap: 1.5rem;
+	flex-direction: row;
+}
+.ro-col-top{	
+	overflow: hidden;
+	margin-bottom: 32px;
+}
+.uiux-container{	
+	width: 85vw;
+	height: 100%;
+	flex-direction: column-reverse;
+	gap: 2rem;
+	margin-bottom: 6rem;
+}
+.ui-left{
+	height: 100%;
+}
+.ui-right{
+	width: 85vw;
+	height: 100%;
+	display: flex;
+}
+.cards h3{
+	font-weight: 700;
+	font-size: 14px;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+}
+.cards span{
+	font-size: 13px;
+}
+.cards p{
+	font-size: 12.5px;
+	padding-top: 1rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+/*ContactMe*/
+.contact-container{
+	gap: 2rem;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+.contact-title{
+	font-size: 4rem;
+	margin-bottom: 1.2rem;
+}
+.contact-info{
+	display: flex;
 	flex-direction: column;
 	width: 92vw;
 }
@@ -169,7 +349,7 @@
 }
 .info-right input{
 	width:40vw;
-	height: 3vh;
+	height: 2rem;
 	animation-timeline: view(70% 5%);
 	transition-delay: 3s;
 }
@@ -312,13 +492,9 @@ padding-right: 0.3rem;
 }
 .cards span{
 font-size: 13px;
-color: #5f5151;
 }
 .cards p{
 font-size: 12.5px;
-color: #5f5151;
-overflow: hidden;
-text-align:justify;
 padding-top: 1rem;
 padding-left: 0.5rem;
 padding-right: 0.5rem;
@@ -497,12 +673,9 @@ font-size: 0.8rem;
 }
 .cards span{
 	font-size: 13px;
-	color: #5f5151;
 }
 .cards p{
 	font-size: 12.5px;
-	color: #5f5151;
-	overflow: hidden;
 	text-align:justify;
 	padding-top: 1rem;
 	padding-left: 0.5rem;
