@@ -30,9 +30,6 @@
 	35%{ 
 		transform: rotate(30deg);
 	}
-	750%{
-		transform: rotate(-60deg);
-	}
 	100%{
 		transform: rotate(0deg);
 	}
@@ -72,8 +69,9 @@
 	color: #4f4343;
 	text-align: center;
 	padding-bottom: 3rem;
-	animation: text-fade 0.2s ease-in-out forwards;
+	animation: text-fade 8s ease-in-out forwards;
 	animation-timeline: view(70% 5%);
+	transition-delay: 3s;
 }
 .info-right input{
 	width:30vw;
