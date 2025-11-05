@@ -7,376 +7,16 @@
 @import url(/Styles/footer.css);
 @import url(/styles/responsive.css);
 
-@media(max-width: 376px){
-.top-container{
-		margin-bottom: 1rem;
-}
-.name{
-	font-size: 3.2rem;
-	margin-top: 6.5rem;
-}
-.bear{
-	width: 38vw;
-}
-.hero{
-	font-size: 1.1rem;
-}
-.hero2{
-	font-size: 1.1rem;
-	margin-bottom: 1.5rem;
-}
-.btns{
-	gap: 0.5rem;
-}
-.btn{
-	font-size: 0.7rem;
-	padding: 0.3rem 0.8rem;
+
+@media(max-width: 1280px){
 
 }
 
-/*about*/
-.about-container{
-	padding-top: 8rem;
-	padding-bottom: 6rem;
-}
-.about-title{
-	font-size: 2.5rem;
-	margin-bottom: 3rem;
-}
-.section-title{
-	font-size: 2.5rem;
-	font-weight: 700;
-	padding-top: 10rem;
-	margin-bottom: 3rem;
-	text-align: center;
-}
-.about-text{
-	width: 85vw;
-	font-size: 0.8rem;
-	margin-bottom: 2rem;
-}
-.not-easy{
-	gap: 0.5rem;
-	padding-top: 8rem ;
-	padding-bottom: 10rem;
-}
-.about-last-text{
-	max-width: 92vw;
-	font-size: 1.4rem;
-}
-.autoLastText{
-	animation: typing 2s steps(10, end) forwards;
-}
-
-/*Projects*/
-.projects{
-	padding-bottom: 5rem;
-}
-.hive-container{	
-	width: 85vw;
-	height: 100%;
-	margin-top: 2rem;
-	flex-direction: column;
-	gap: 2.5rem;
-}
-.ro-left{
-	height: 100%;
-	border: 1px solid rgba(151, 138, 138, 0.2);
-	border-radius: 1rem;
-	overflow: hidden;
-}
-.ro-right{
-	height: 100%;
-	gap: 1.5rem;
-	flex-direction: row;
-}
-.ro-col-top{	
-	overflow: hidden;
-	margin-bottom: 32px;
-}
-.uiux-container{	
-	width: 85vw;
-	height: 100%;
-	flex-direction: column-reverse;
-	gap: 2rem;
-	margin-bottom: 6rem;
-}
-.ui-left{
-	height: 100%;
-}
-.ui-right{
-	width: 85vw;
-	height: 100%;
-	display: flex;
-}
-.cards h3{
-	font-weight: 700;
-	font-size: 14px;
-	padding-left: 0.3rem;
-	padding-right: 0.3rem;
-}
-.cards span{
-	font-size: 13px;
-	color: #5f5151;
-}
-.cards p{
-	font-size: 12.5px;
-	color: #5f5151;
-	overflow: hidden;
-	text-align:justify;
-	padding-top: 1rem;
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
-}
-
-/*ContactMe*/
-.contact-container{
-	gap: 2rem;
-	padding-top: 8rem;
-	padding-bottom: 8rem;
-}
-.contact-title{
-	font-size: 2.5rem;
-	margin-bottom: 1.2rem;
-}
-.contact-info{
-	display: flex;
-	flex-direction: column;
-	width: 92vw;
-}
-.info-left{
-	margin-top: -2rem;
-}
-.info-right{
-	gap: 2rem;
-	padding-top: 1rem;
-}
-.bearpaw{
-	margin-top: 0.8rem;
-	width: 35vw;
-}
-.info-right p{
-	font-size: 14px;
-	padding-bottom: 1rem;
-}
-.info-right input{
-	width:40vw;
-	height: 3vh;
-	animation-timeline: view(70% 5%);
-	transition-delay: 3s;
-}
-.input input::placeholder{
-	font-size: 0.6rem;
-}
-.btn2{
-	border-radius: 3rem;
-	padding: 0.2rem 0.6rem;
-	font-size: 0.7rem;
-	animation-timeline: view(70% 5%);
-	transition-delay: 3s;
-}
-
-/*Footer*/
-footer{
-	gap: 0.8rem;
-}
-footer ul{
-	gap: 1.5rem;
-}
-footer ul li a{
-	font-size: 1rem;
-}
-.copyright{
-	font-size: 0.8rem;
-}
-}
-
-
-@media(max-width: 480px){
-.top-container{
-		margin-bottom: 1rem;
-}
-.name{
-	font-size: 3.5rem;
-	margin-top: 8rem;
-}
-.bear{
-	width: 40vw;
-}
-.hero{
-	font-size: 1.2rem;
-	margin-bottom: 0.3rem;
-}
-.hero2{
-	font-size: 1.2rem;
-	margin-bottom: 1.5rem;
-}
-.btns{
-	gap: 0.5rem;
-}
-.btn{
-	font-size: 0.8rem;
-	padding: 0.4rem 0.8rem;
+@media(max-width: 1025px){
 
 }
 
-/*about*/
-.about-container{
-	padding-top: 8rem;
-	padding-bottom: 6rem;
-}
-.about-title{
-	font-size: 3rem;
-	margin-bottom: 3rem;
-}
-.section-title{
-	font-size: 3rem;
-	font-weight: 700;
-	padding-top: 10rem;
-	margin-bottom: 3rem;
-	text-align: center;
-}
-.about-text{
-	width: 85vw;
-	font-size: 0.9rem;
-	margin-bottom: 2rem;
-}
-.not-easy{
-	gap: 0.5rem;
-	padding-top: 8rem ;
-	padding-bottom: 10rem;
-}
-.about-last-text{
-	max-width: 90vw;
-	font-size: 1.5rem;
-}
-.autoLastText{
-	animation: typing 2s steps(10, end) forwards;
-}
 
-/*Projects*/
-.projects{
-	padding-bottom: 5rem;
-}
-.hive-container{	
-	width: 85vw;
-	height: 100%;
-	margin-top: 2rem;
-	flex-direction: column;
-	gap: 2.5rem;
-}
-.ro-left{
-	height: 100%;
-	border: 1px solid rgba(151, 138, 138, 0.2);
-	border-radius: 1rem;
-	overflow: hidden;
-}
-.ro-right{
-	height: 100%;
-	gap: 1.5rem;
-	flex-direction: row;
-}
-.ro-col-top{	
-	overflow: hidden;
-	margin-bottom: 32px;
-}
-.uiux-container{	
-	width: 85vw;
-	height: 100%;
-	flex-direction: column-reverse;
-	gap: 2rem;
-	margin-bottom: 6rem;
-}
-.ui-left{
-	height: 100%;
-}
-.ui-right{
-	width: 85vw;
-	height: 100%;
-	display: flex;
-}
-.cards h3{
-	font-weight: 700;
-	font-size: 14px;
-	padding-left: 0.3rem;
-	padding-right: 0.3rem;
-}
-.cards span{
-	font-size: 13px;
-	color: #5f5151;
-}
-.cards p{
-	font-size: 12.5px;
-	color: #5f5151;
-	overflow: hidden;
-	text-align:justify;
-	padding-top: 1rem;
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
-}
-
-/*ContactMe*/
-.contact-container{
-	gap: 2rem;
-	padding-top: 8rem;
-	padding-bottom: 8rem;
-}
-.contact-title{
-	font-size: 3rem;
-	margin-bottom: 1.2rem;
-}
-.contact-info{
-	display: flex;
-	flex-direction: column;
-	width: 92vw;
-}
-.info-left{
-	margin-top: -2rem;
-}
-.info-right{
-	gap: 2rem;
-	padding-top: 1rem;
-}
-.bearpaw{
-	margin-top: 0.8rem;
-	width: 35vw;
-}
-.info-right p{
-	font-size: 14px;
-	padding-bottom: 1rem;
-}
-.info-right input{
-	width:40vw;
-	height: 3vh;
-	animation-timeline: view(70% 5%);
-	transition-delay: 3s;
-}
-.input input::placeholder{
-	font-size: 0.6rem;
-}
-.btn2{
-	border-radius: 3rem;
-	padding: 0.3rem 0.8rem;
-	font-size: 0.7rem;
-	animation-timeline: view(70% 5%);
-	transition-delay: 3s;
-}
-
-/*Footer*/
-footer{
-	height: 8rem;
-	gap: 0.8rem;
-}
-footer ul{
-	gap: 1.5rem;
-}
-footer ul li a{
-	font-size: 1rem;
-}
-.copyright{
-	font-size: 0.8rem;
-}
-}
 
 
 @media(max-width: 769px){
@@ -560,11 +200,373 @@ footer ul li a{
 }
 }
 
-
-@media(max-width: 1025px){
+	
+@media(max-width: 480px){
+.top-container{
+	margin-bottom: 1rem;
+}
+.name{
+font-size: 3.5rem;
+margin-top: 8rem;
+}
+.bear{
+width: 40vw;
+}
+.hero{
+font-size: 1.2rem;
+margin-bottom: 0.3rem;
+}
+.hero2{
+font-size: 1.2rem;
+margin-bottom: 1.5rem;
+}
+.btns{
+gap: 0.5rem;
+}
+.btn{
+font-size: 0.8rem;
+padding: 0.4rem 0.8rem;
 
 }
 
-@media(max-width: 1280px){
+/*about*/
+.about-container{
+padding-top: 8rem;
+padding-bottom: 6rem;
+}
+.about-title{
+font-size: 3rem;
+margin-bottom: 3rem;
+}
+.section-title{
+font-size: 3rem;
+font-weight: 700;
+padding-top: 10rem;
+margin-bottom: 3rem;
+text-align: center;
+}
+.about-text{
+width: 85vw;
+font-size: 0.9rem;
+margin-bottom: 2rem;
+}
+.not-easy{
+gap: 0.5rem;
+padding-top: 8rem ;
+padding-bottom: 10rem;
+}
+.about-last-text{
+max-width: 90vw;
+font-size: 1.5rem;
+}
+.autoLastText{
+animation: typing 2s steps(10, end) forwards;
+}
 
+/*Projects*/
+.projects{
+padding-bottom: 5rem;
+}
+.hive-container{	
+width: 85vw;
+height: 100%;
+margin-top: 2rem;
+flex-direction: column;
+gap: 2.5rem;
+}
+.ro-left{
+height: 100%;
+border: 1px solid rgba(151, 138, 138, 0.2);
+border-radius: 1rem;
+overflow: hidden;
+}
+.ro-right{
+height: 100%;
+gap: 1.5rem;
+flex-direction: row;
+}
+.ro-col-top{	
+overflow: hidden;
+margin-bottom: 32px;
+}
+.uiux-container{	
+width: 85vw;
+height: 100%;
+flex-direction: column-reverse;
+gap: 2rem;
+margin-bottom: 6rem;
+}
+.ui-left{
+height: 100%;
+}
+.ui-right{
+width: 85vw;
+height: 100%;
+display: flex;
+}
+.cards h3{
+font-weight: 700;
+font-size: 14px;
+padding-left: 0.3rem;
+padding-right: 0.3rem;
+}
+.cards span{
+font-size: 13px;
+color: #5f5151;
+}
+.cards p{
+font-size: 12.5px;
+color: #5f5151;
+overflow: hidden;
+text-align:justify;
+padding-top: 1rem;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+}
+
+/*ContactMe*/
+.contact-container{
+gap: 2rem;
+padding-top: 8rem;
+padding-bottom: 8rem;
+}
+.contact-title{
+font-size: 3rem;
+margin-bottom: 1.2rem;
+}
+.contact-info{
+display: flex;
+flex-direction: column;
+width: 92vw;
+}
+.info-left{
+margin-top: -2rem;
+}
+.info-right{
+gap: 2rem;
+padding-top: 1rem;
+}
+.bearpaw{
+margin-top: 0.8rem;
+width: 35vw;
+}
+.info-right p{
+font-size: 14px;
+padding-bottom: 1rem;
+}
+.info-right input{
+width:40vw;
+height: 3vh;
+animation-timeline: view(70% 5%);
+transition-delay: 3s;
+}
+.input input::placeholder{
+font-size: 0.6rem;
+}
+.btn2{
+border-radius: 3rem;
+padding: 0.3rem 0.8rem;
+font-size: 0.7rem;
+animation-timeline: view(70% 5%);
+transition-delay: 3s;
+}
+
+/*Footer*/
+footer{
+height: 8rem;
+gap: 0.8rem;
+}
+footer ul{
+gap: 1.5rem;
+}
+footer ul li a{
+font-size: 1rem;
+}
+.copyright{
+font-size: 0.8rem;
+}
+}
+
+@media(max-width: 376px){
+.top-container{
+		margin-bottom: 1rem;
+}
+.name{
+	font-size: 3.2rem;
+	margin-top: 6.5rem;
+}
+.bear{
+	width: 38vw;
+}
+.hero{
+	font-size: 1.1rem;
+}
+.hero2{
+	font-size: 1.1rem;
+	margin-bottom: 1.5rem;
+}
+.btns{
+	gap: 0.5rem;
+}
+.btn{
+	font-size: 0.7rem;
+	padding: 0.3rem 0.8rem;
+
+}
+
+/*about*/
+.about-container{
+	padding-top: 8rem;
+	padding-bottom: 6rem;
+}
+.about-title{
+	font-size: 2.5rem;
+	margin-bottom: 3rem;
+}
+.section-title{
+	font-size: 2.5rem;
+	font-weight: 700;
+	padding-top: 10rem;
+	margin-bottom: 3rem;
+	text-align: center;
+}
+.about-text{
+	width: 85vw;
+	font-size: 0.8rem;
+	margin-bottom: 2rem;
+}
+.not-easy{
+	gap: 0.5rem;
+	padding-top: 8rem ;
+	padding-bottom: 10rem;
+}
+.about-last-text{
+	max-width: 92vw;
+	font-size: 1.4rem;
+}
+.autoLastText{
+	animation: typing 2s steps(10, end) forwards;
+}
+
+/*Projects*/
+.projects{
+	padding-bottom: 5rem;
+}
+.hive-container{	
+	width: 85vw;
+	height: 100%;
+	margin-top: 2rem;
+	flex-direction: column;
+	gap: 2.5rem;
+}
+.ro-left{
+	height: 100%;
+	border: 1px solid rgba(151, 138, 138, 0.2);
+	border-radius: 1rem;
+	overflow: hidden;
+}
+.ro-right{
+	height: 100%;
+	gap: 1.5rem;
+	flex-direction: row;
+}
+.ro-col-top{	
+	overflow: hidden;
+	margin-bottom: 32px;
+}
+.uiux-container{	
+	width: 85vw;
+	height: 100%;
+	flex-direction: column-reverse;
+	gap: 2rem;
+	margin-bottom: 6rem;
+}
+.ui-left{
+	height: 100%;
+}
+.ui-right{
+	width: 85vw;
+	height: 100%;
+	display: flex;
+}
+.cards h3{
+	font-weight: 700;
+	font-size: 14px;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+}
+.cards span{
+	font-size: 13px;
+	color: #5f5151;
+}
+.cards p{
+	font-size: 12.5px;
+	color: #5f5151;
+	overflow: hidden;
+	text-align:justify;
+	padding-top: 1rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+/*ContactMe*/
+.contact-container{
+	gap: 2rem;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+.contact-title{
+	font-size: 2.5rem;
+	margin-bottom: 1.2rem;
+}
+.contact-info{
+	display: flex;
+	flex-direction: column;
+	width: 92vw;
+}
+.info-left{
+	margin-top: -2rem;
+}
+.info-right{
+	gap: 2rem;
+	padding-top: 1rem;
+}
+.bearpaw{
+	margin-top: 0.8rem;
+	width: 35vw;
+}
+.info-right p{
+	font-size: 14px;
+	padding-bottom: 1rem;
+}
+.info-right input{
+	width:40vw;
+	height: 3vh;
+	animation-timeline: view(70% 5%);
+	transition-delay: 3s;
+}
+.input input::placeholder{
+	font-size: 0.6rem;
+}
+.btn2{
+	border-radius: 3rem;
+	padding: 0.2rem 0.6rem;
+	font-size: 0.7rem;
+	animation-timeline: view(70% 5%);
+	transition-delay: 3s;
+}
+
+/*Footer*/
+footer{
+	gap: 0.8rem;
+}
+footer ul{
+	gap: 1.5rem;
+}
+footer ul li a{
+	font-size: 1rem;
+}
+.copyright{
+	font-size: 0.8rem;
+}
 }
