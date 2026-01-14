@@ -5,11 +5,66 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	padding-bottom: 8rem;
 }
+
+.recent-container{
+	width: 100vw;
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	gap: 20px;
+
+}
+
+.recent-container .cards-parents{
+border: 1px solid rgba(151, 138, 138, 0.2);
+border-radius: 1rem;
+background-color: #faf5f5;
+overflow: hidden;
+align-self: self-start;
+}
+
+.recent-container .cards h3{
+	padding-bottom: 1rem;
+}
+
+.grid-container{
+	width: 75vw;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 22px;
+}
+
+/* .grid-container .cards-parents:nth-child(2){
+	transform:translateY(150px);
+	justify-self: end;
+}
+
+.grid-container .cards-parents:nth-child(3){
+	transform:translateY(10px);
+	justify-self: start;
+	margin-bottom: 170px;
+} */
+.grid-container .cards-parents:nth-child(3){
+	grid-column: 1 / -1;
+	max-width: 600px;
+	justify-self: center;
+	margin-bottom: 22px;
+} 
+
+.overlay .overlay-mobile{
+	width: 120px;
+	height: auto;
+	aspect-ratio: auto;
+	object-fit: contain;
+
+}
+
 .hive-container{	
 	width: 75vw;
-	height: 480px;
+	height: 570px;
 	display: flex;
 	flex-flow: row nowrap;
 	gap: 1.5rem;
@@ -34,7 +89,6 @@
 	height: 100%;
 	gap: 1.5rem;
 	flex-flow: column nowrap;
-	
 }
 .ro-col-top{
 	flex: 1.55;
@@ -52,7 +106,7 @@
 }
 .uiux-container{	
 	width: 75vw;
-	height: 430px;
+	height: 510px;
 	display: flex;
 	flex-flow: row wrap;
 	gap: 1.5rem;
@@ -97,7 +151,7 @@
 .cards{
 	position: relative;
 	overflow: hidden;
-	transition: 0.8s ease;
+	transition: 2s; 
 }
 .cards .gifs{
 	width: 100%;
@@ -114,7 +168,7 @@
 	padding-left: 0.5rem;
 	padding-right: 0.5rem;
 	padding-top: 0.8rem;
-	padding-bottom: 4rem;
+	padding-bottom: 1rem;
 }
 .cards span{
 	font-family: "CodePro", sans-serif;
@@ -137,8 +191,8 @@
 	border-radius: 1rem;
 	align-items: center;
 	justify-content: center;
-	transform: rotateY(180deg);
-	transition: transform 0.3s ease-in-out;
+	/* transform: rotateY(180deg);
+	transition: transform 0.2s linear; */
 	z-index: 2;
 }
 .overlay p{
@@ -173,19 +227,24 @@
 .cards:hover h3,
 .cards:hover span{
 	opacity: 0;
-	transition: opacity 0.5s ease-in-out;
+	transition: opacity 3s ease-in-out;
 }
 .cards:hover .overlay{
 	opacity: 1;
 }
 .cards-parents:hover .cards{
-	transform: rotateY(180deg);
-	transition: transform 0.8s ease;
+	transform: translateY(-2%); 
+	transition: transform 0.8s ease-in-out;
 }
+
 
 /* Responsive design */
 
 @media(max-width: 1280px){
+.recent-container{	
+		width: 75vw;
+		height: auto;
+	}
 .hive-container{	
 	width: 75vw;
 	height: 440px;
@@ -199,9 +258,14 @@
 }
 }
 
-@media(max-width: 1025px){
+@media(max-width: 1024px){
 .projects{
 	padding-bottom: 5rem;
+}
+.recent-container{	
+	width: 80vw;
+	height: auto;
+	margin-bottom: 1.5rem;
 }
 .hive-container{	
 	width: 80vw;
@@ -247,6 +311,25 @@
 .projects{
 	padding-bottom: 5rem;
 }
+
+.recent-container{	
+	width: 100%;
+  padding: 0 1rem;
+}
+
+.grid-container{
+	width: 85vw;
+	grid-template-columns: 1fr;
+	gap: 20px;
+}
+
+.grid-container .cards-parents:nth-child(3){
+	grid-column: auto;
+	max-width: none;
+	justify-self: stretch;
+	margin-bottom: 0;
+}
+
 .hive-container{	
 	width: 85vw;
 	height: 100%;
