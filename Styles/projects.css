@@ -23,7 +23,9 @@
 	margin: 0 auto;
 	margin-bottom: 20px;
 	border-radius: 1rem;
-	overflow: hidden;
+	border: 1px solid rgba(151, 138, 138, 0.2);
+	background-color: #faf5f5;
+
 }
 
 
@@ -242,7 +244,8 @@ align-self: self-start;
 /* Responsive design */
 
 @media(max-width: 1280px){
-.recent-container{	
+.recent-container,
+.grid-container{	
 		width: 75vw;
 		height: auto;
 	}
@@ -262,7 +265,8 @@ align-self: self-start;
 .projects{
 	padding-bottom: 5rem;
 }
-.recent-container{	
+.recent-container,
+.grid-container{	
 	width: 80vw;
 	height: auto;
 	margin-bottom: 1.5rem;
