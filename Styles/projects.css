@@ -319,7 +319,8 @@ align-self: self-start;
   padding: 0 1rem;
 }
 
-.grid-container{
+.grid-container,
+.recent-nqjr{
 	width: 85vw;
 	grid-template-columns: 1fr;
 	gap: 20px;
@@ -432,7 +433,8 @@ align-self: self-start;
 .projects{
 	padding-bottom: 5rem;
 }
-.hive-container{	
+.hive-container,
+.recent-nqjr{	
 	width: 85vw;
 	margin-top: 2rem;
 	flex-direction: column;
@@ -505,7 +507,8 @@ align-self: self-start;
 .projects{
 	padding-bottom: 5rem;
 }
-.hive-container{	
+.hive-container,
+.recent-nqjr{	
 	width: 85vw;
 	height: 100%;
 	margin-top: 2rem;
