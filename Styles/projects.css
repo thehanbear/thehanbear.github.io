@@ -23,6 +23,7 @@
 	margin: 0 auto;
 	margin-bottom: 20px;
 	border-radius: 1rem;
+	overflow: hidden;
 	border: 1px solid rgba(151, 138, 138, 0.2);
 	background-color: #faf5f5;
 
